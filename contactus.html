@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap HTML Skeleton</title>
+
+    <!-- Add Bootstrap CSS from a Content Delivery Network (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Add your custom CSS if needed -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   
+   
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">ZENANDE MQUQO</a>
+
+        <!-- Hamburger Menu Button for Mobile View -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto"> <!-- mx-auto centers the links -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="donate.html">Donate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="port.html" style="color: white;">portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+  <section class="contact1">
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>If you have any questions, inquiries, or media requests, feel free to contact me through the following methods:</p>
+    
+    <ul>
+        <li>Email: <a href="mailto:zenmquqo@gmail.com">zenmquqo@gmail.com</a></li>
+        <li>Phone: <a href="tel: +27735209571">+27 73 520 9571</a></li>
+        <br>
+        <p>Social Media:</p>
+        <br>
+            <ul>
+                <li><a href="https://www.instagram.com/zen.mqukss/?hl=en#" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/zenande-mquqo-68656025a?trk=contact-info" target="_blank">LinkedIn</a></li>
+                <!-- Add more social media links as needed -->
+            </ul>
+    </ul>
+</section>
+
+<section class="contact-form">
+    <h2>Get in touch</h2>
+    <form id="contact-form" action="https://formspree.io/f/xrgwryag" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</section>
+
+
+    <!-- Bootstrap JavaScript (Popper.js and Bootstrap JS) from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="script.js"></script>
+    
+</body>
+<footer style=" position:relative;  background-color: #22333b; color: white; padding: 5px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 socials">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/zenande-mquqo-68656025a?trk=contact-info"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/zen.mqukss/?hl=en#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+  
+            <div class="col-md-6 nav-footer">
+                <ul class="list-inline text-md-right">
+                    <!-- <li class="list-inline-item"><a href="faq.html" style="color: white;">FAQ</a></li>
+                    <li class="list-inline-item">|</li> -->
+                    <li class="list-inline-item"><a href="donate.html" style="color: white;">Donation Information</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center">&copy; 2023 Zenande Mquqo</p>
+    </div>
+  </footer>
+</html>

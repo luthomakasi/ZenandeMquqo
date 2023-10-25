@@ -1,0 +1,716 @@
+/* Reset some default browser styles */
+/* Reset some default browser styles */
+@import url('https://fonts.cdnfonts.com/css/sifonn');
+@import url("../webfonts/SIFONN_PRO/stylesheet.css");
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url("../webfonts/montserrat/stylesheet.css");
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url("../webfonts/BebasNeue_Bold/stylesheet.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*footer*/
+/*-------------------------------------------------------------------------------------------------------*/
+footer {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.nav-footer {
+    text-align: center;
+    
+   
+}
+
+.nav-footer ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-footer ul li {
+    display: inline;
+    font-size: 15px;
+    margin-right: 10px; /* Adjust spacing between links */
+    margin-bottom: 15px;
+}
+
+/* Style the navigation links */
+.nav-footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+    font-family: "BebasNeue Bold";
+}
+
+.nav-footer ul li a:hover {
+    color: #f44336;
+}
+
+/* Style the social icons container */
+.socials {
+    margin-top: 10px;
+}
+.socials p{
+    margin: 10px 0;
+}
+
+
+/* Style the social icons */
+.socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between icons */
+}
+
+/* Style the social icons */
+.socials a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for social icons */
+.socials a:hover {
+    color: #009688;
+}
+
+
+
+/* Basic styling for the header */
+/*-------------------------------------------------------------------------------------------------------*/
+header {
+   /* background-color: #009688;*/
+    color: white;
+    padding: 10px 0;
+}
+
+
+/* Style the navigation menu */
+/*-------------------------------------------------------------------------------------------------------*/
+nav{
+    position: relative;
+    top: 50px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+    font-size: 20px;
+    
+   
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* Style the navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: "BebasNeue Bold";
+}
+
+nav ul li a:hover {
+    color: #f44336;
+}
+@media screen and (max-width: 768px) {
+    nav ul li {
+        font-size: 18px; /* Adjust font size for mobile */
+    }
+}
+
+
+/*home page*/
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* Style the "Latest Updates" section */
+.latest-updates {
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.latest-updates h1{
+    color: white;
+    
+}
+
+.latest-updates h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the list items */
+
+.latest-updates ul li{
+    display:block;
+}
+.latest-updates ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.latest-updates li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: white;
+}
+main h2 {
+    color: white;
+}
+main{
+    background-image: url(Mock\ Up\ dar-03.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    margin-bottom: 90x;
+
+   
+}
+.home{
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 90px;
+    display: flex; 
+    align-items: center;
+}
+
+.visuals img{
+    align-items: left;
+    margin: 5px;
+    padding: 3px;
+    flex: 1;
+    border: 1px solid white;
+    object-fit: cover; 
+}
+
+/* Style the main content section */
+.intro {
+   
+    flex: 2; /* The text container takes up 2/3 of the available space */
+    padding: 20px; /
+}
+main p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+}
+
+.intro h1 {
+    text-transform: uppercase;
+    
+    color: white;
+    font-family: 'SIFONN PRO';
+    font-size: 32px;
+}
+.intro h2 {
+    text-transform: uppercase;
+    
+    color: white;
+    font-family: "BebasNeue Bold";
+    font-size: 20px;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+}
+.cta-button{
+    background-color:#f44336; /* Choose a contrasting color */
+    color: white; /* Text color for contrast */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add rounded corners */
+    text-decoration: none; /* Remove underlines for the anchor */
+    font-size: 18px; /* Adjust font size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+      }
+      
+      /* Hover effect (optional) */
+.cta-button:hover {
+    background-color:#f44336; /* Change the color on hover */
+}
+/* Add this to your existing styles.css */
+
+/* Mobile-first approach */
+/* You may need to fine-tune these styles for various screen sizes */
+
+/* Make the header navigation more mobile-friendly */
+nav ul li {
+    font-size: 18px; /* Reduce font size for mobile */
+    margin-right: 15px; /* Adjust spacing between links */
+    margin-bottom: 10px;
+}
+
+/* Adjust the visual section */
+.visuals img {
+    width: 100%; /* Make the image responsive */
+}
+
+/* Adjust the introduction section */
+.intro h1 {
+    font-size: 32px; /* Adjust font size for mobile */
+}
+
+.intro h2 {
+    font-size: 20px; /* Adjust font size for mobile */
+}
+
+/* For smaller screens (tablets) */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        font-size: 16px; /* Further reduce font size for tablets */
+    }
+}
+
+/* For larger screens (PCs) */
+@media screen and (min-width: 1024px) {
+    .home {
+        max-width: 70%; /* Wider content for larger screens */
+    }
+
+    .visuals img {
+        width: auto; /* Set image width to auto for larger screens */
+    }
+}
+
+
+
+
+/*About us*/
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* Reset some default browser styles */
+.about body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+.about-content body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+.visuals2{
+    padding: 100px;
+}
+.visuals2 h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'SIFONN PRO';
+    font-size: 70pt;
+}
+.visuals2 img{
+    align-items: center;
+    margin: 5px;
+    padding: 3px;
+    position: relative;
+    border: 1px solid white;
+    object-fit: cover; 
+}
+
+.about h1 {
+    font-size: 20px;
+}
+.about{
+    background-color: #0d0d0d;
+    color: #f7f7f7;
+    min-height: 100%;
+    min-width: 100%;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 50px;
+    background-color:#0d0d0d;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+
+.about h2 {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.visuals2 ul li{
+    display:block;
+}
+.visuals2 ul {
+    list-style-type: disc;
+    
+}
+
+.visuals2 li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+
+/* Media page */
+/*-------------------------------------------------------------------------------------------------------*/
+/* Reset some default browser styles */
+.gallery, h1, p, img, video {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+.gallery {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+.media-body{
+    padding: 90px;
+}
+.media{
+    background-color:#0d0d0d;
+    color: white;
+}
+.gallary header {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gallary h1 {
+    font-size: 28px;
+}
+
+.gallery {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.media-item {
+    flex-basis: calc(33.33% - 10px); /* Adjust the width based on your preference */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.media-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.media-item video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/* FAQ */
+/*-------------------------------------------------------------------------------------------------------*/
+/* Reset some default browser styles */
+.main1 body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+.faq{
+    padding: 90px;
+}
+
+/* Basic styling */
+.main1 body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.main1 h1 {
+    font-size: 28px;
+}
+.faq-list h1{
+    padding: 50px;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.faq-list {
+
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0d0d0d;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.main1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main1 p {
+    font-size: 16px;
+}
+
+/*Contact Us*/
+/*-------------------------------------------------------------------------------------------------------*/
+/* Reset some default browser styles */
+.contact-info body, h1, h2, p, ul, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+.contact-info body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.main1{
+    margin-bottom: 120px;
+    position:relative;
+}
+
+.contact-info, .contact-form {
+    max-width: 800px;
+    margin: 20px auto;
+  
+    padding: 50px;
+    background-color:#0d0d0d;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+   
+}
+
+.contact-info h2, .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contact1{
+    padding: 90px;
+}
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info li a {
+    text-decoration: none;
+    color: #009688;
+}
+
+.contact-form form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007c6e;
+}
+
+/*donate*/
+/*-------------------------------------------------------------------------------------------------------*/
+/* Basic styling */
+.donation-info body {
+    font-family: Arial, sans-serif;
+    
+    color:white;
+}
+
+.donation-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+    background-color: #0d0d0d;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+.donation-info h2{
+    padding: 50px;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.donation-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.donation-info p {
+    font-size: 16px;
+    color:white;
+    
+}
+.donate{
+    padding: 90px;
+}
+
+.donation-info ol {
+    margin-left: 20px;
+}
+
+.donation-info li {
+    margin-bottom: 10px;
+}
+
+.donation-info a {
+    text-decoration: none;
+    color: #009688;
+}
+.container{
+    color: white;
+}
+/*<styl>*/
+
+      .visuals img {
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add shadow to the image */
+      }
+      .intro {
+          color: black; /* Change text color to black */
+      }
+      body {
+        background-image: url('Mock Up-03.jpg'); /* Change the path to your background image */
+        background-size: cover;
+        background-position: top; /* Position the background image at the top */
+      }
+
+      /* Custom styles for the navigation bar */
+      .navbar {
+          background-color: transparent; /* Set the background to transparent */
+          top: 0%;
+      }
+
+      .navbar-brand {
+          color: white; /* Set the company name text to white */
+      }
+
+      .navbar-nav {
+          margin: 0 auto; /* Center the links */
+      }
+
+      .nav-link {
+          color: white; /* Set link text to white */
+      }
+      .navbar-toggler{
+         color: blue;
+         background-color: aliceblue;
+      }
+      
+      .nav-link1 {
+        color: white; /* Set link text to white */
+    }
+    .navbar-toggler1{
+       color: blue;
+       background-color: aliceblue;
+    }
+      .card-img-fixed {
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+.nav-item ul li a:hover {
+    color: #007c6e;
+}
+    
+/*</styl>*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  .navbar-nav .nav-link:hover {
+    color: red;
+}
+.navbar-brand:hover{
+    color: #f44336;
+}
+
+
